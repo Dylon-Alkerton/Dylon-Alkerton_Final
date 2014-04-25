@@ -1,0 +1,124 @@
+
+
+body {
+	background-image: url('../images/banner_img.jpg');
+}
+
+header {
+	padding: 5px 5px 5px 5px;
+	color: #fff;
+	/*float: left;*/
+	overflow: auto;
+}
+
+nav {
+	float: right;
+	font-size: 35px;
+	font-family: 'Philosopher', 'sans-serif';
+	overflow: auto;
+	/*background-color: #282828;*/
+	background-color:rgba(40,40,40,0.5);
+	/*width: 50%;*/
+	margin-top: 30px;
+	margin-right: 90px;
+	border-radius: 100px;
+}
+.container {
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 100px 0px;
+  width: 80%;
+  text-align: center;
+}
+.content {
+  padding: 100px 0;
+}
+
+header#intro {
+  background-image: url('../images/Banner_img.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+ul#nav li {
+	display: inline-block;
+	margin: 10px 10px 10px 10px;
+	/*margin-left: 50px;*/
+}
+
+ul#nav li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#title{
+	width: 40%;
+	float: left;
+	padding: 30px 40px 10px 10px;
+}
+
+ul#nav {
+	/*width: 70%;*/
+	/*float: right;*/
+	/*float: right;*/
+}
+
+ul#nav li a:hover {
+	color: #bf6565;
+}
+
+section#gallery {
+  background: #fff;
+  color: #050505;
+}
+
+section#gallery .content {
+  float: left;
+  display: inline-block;
+  width: 45%;
+  margin: 0 2.475%;
+}
+
+footer {
+	margin-top: 425px;
+	width: 100%;
+	height: 75px;
+	background-color: #bf6565;
+	color: #fff;
+	clear: both;
+
+}
+
+ul#buttons li {
+	display: inline-block;
+	margin: 0px 10px 0px 10px;
+	/*margin-left: 50px;*/
+}
+
+#copyright {
+	float: left;
+	margin: 15px 0px 5px 600px;
+}
+
+#buttons{
+	float: right;
+	padding: 17px 17px 0px 0px;
+}
+
+p {
+	text-align: center;
+}
+
+h1,h2 {
+	font-family: 'Philosopher', 'sans-serif';
+	margin-left: 40px;
+}
+
+h1 {
+	font-size: 60px;
+}
+
+h2 {
+	font-size: 50px;
+	margin-top: 40px;
+}
